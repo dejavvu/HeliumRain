@@ -2,25 +2,10 @@
 
 #include "../../Flare.h"
 #include "../../Game/FlareGameTypes.h"
-#include "FlareNotification.generated.h"
 
 
 class SFlareNotifier;
 class AFlareMenuManager;
-
-
-/** Possible notification types */
-UENUM()
-namespace EFlareNotification
-{
-	enum Type
-	{
-		NT_Info,
-		NT_Economy,
-		NT_Military,
-		NT_Quest
-	};
-}
 
 
 class SFlareNotification : public SCompoundWidget
