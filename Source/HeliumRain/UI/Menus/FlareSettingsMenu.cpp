@@ -12,6 +12,7 @@
 #include "../../Data/FlareSpacecraftComponentsCatalog.h"
 
 #include "STextComboBox.h"
+#include "GameFramework/InputSettings.h"
 
 
 #define LOCTEXT_NAMESPACE "FlareSettingsMenu"
